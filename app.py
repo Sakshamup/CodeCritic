@@ -15,39 +15,39 @@ st.markdown("""
 <style>
     /* Main app background - baby pink */
     .stApp {
-        background-color: #fdeef4 !important;
+        background-color: #f01347 !important;
     }
     
     /* Main content area */
     .main .block-container {
-        background-color: #fdeef4 !important;
+        background-color: #426ff5 !important;
         padding: 1rem;
     }
     
     /* Sidebar styling - light pink */
     .css-1d391kg, .css-1lcbmhc, .css-17lntkn {
-        background-color: #fef7fa !important;
+        background-color: #3d50f5 !important;
         border-right: 1px solid #f8bbd9;
     }
     
     /* Sidebar content */
     .sidebar .sidebar-content {
-        background-color: #fef7fa !important;
+        background-color: #2f3cf5 !important;
         padding: 1rem;
     }
     
     /* Alternative sidebar selectors for different Streamlit versions */
     div[data-testid="stSidebar"] {
-        background-color: #fef7fa !important;
+        background-color: #2f3cf5 !important;
     }
     
     div[data-testid="stSidebar"] > div {
-        background-color: #fef7fa !important;
+        background-color: #2f3cf5 !important;
     }
     
     /* Header styling */
     .main-header {
-        background: linear-gradient(90deg, #f8bbd9 0%, #e91e63 100%);
+        background: linear-gradient(90deg, #2a30db 0%, #e91e63 100%);
         padding: 2rem;
         border-radius: 10px;
         color: white;
@@ -63,7 +63,6 @@ st.markdown("""
         border-radius: 12px;
         box-shadow: 0 2px 10px rgba(248, 187, 217, 0.2);
         margin: 1rem 0;
-        border-left: 4px solid #f8bbd9;
     }
     
     /* Code input styling */
@@ -86,13 +85,13 @@ st.markdown("""
     }
     
     /* Complexity indicators */
-    .complexity-low { background: linear-gradient(90deg, #d4edda, #c3e6cb); }
-    .complexity-medium { background: linear-gradient(90deg, #fff3cd, #ffeaa7); }
-    .complexity-high { background: linear-gradient(90deg, #f8d7da, #f5c6cb); }
+    .complexity-low { background: #11f22b; }
+    .complexity-medium { background: #f27d16; }
+    .complexity-high { background: #f2071d; }
     
     /* Button styling */
     .stButton > button {
-        background: linear-gradient(90deg, #f8bbd9 0%, #e91e63 100%);
+        background: linear-gradient(90deg, #2a30db 0%, #e91e63 100%);
         color: white;
         border: none;
         border-radius: 8px;
@@ -108,10 +107,9 @@ st.markdown("""
     
     /* Section headers */
     .section-header {
-        background: linear-gradient(90deg, #fef7fa, #fce4ec);
+        background: linear-gradient(90deg, #2a30db, #e91e63);
         padding: 1rem;
         border-radius: 8px;
-        border-left: 4px solid #f8bbd9;
         margin: 1rem 0;
     }
     
@@ -841,7 +839,7 @@ def main():
     # Footer
     st.markdown("---")
     st.markdown("""
-    <div style="text-align: center; padding: 2rem; background: white; border-radius: 10px; margin: 2rem 0;">
+    <div style="text-align: center; padding: 2rem; background: linear-gradient(90deg, #2a30db 0%, #e91e63 100%); border-radius: 10px; margin: 2rem 0;">
         <p>🚀 Built with ❤️ using <strong>Streamlit</strong>, <strong>LangChain</strong>, and <strong>Google Gemini</strong></p>
         <p>🔧 Enhanced with complexity analysis and modern UI design</p>
     </div>
